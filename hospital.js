@@ -30,9 +30,10 @@ card.forEach(function(cards){
        document.querySelector(".content").innerHTML=`
        <img src=${cards.firstElementChild.src} alt="">
        <div class="contentText">
-                   <h1>Alexa Zoan</h1>
-                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi ex accusantium eius magnam, esse repellat veritatis, consectetur aut perspiciatis dolor labore sapiente.</p>
+                   <h1>knee Surgeon</h1>
+                   <p>Dr. Syed Rushda Afreen is a renowned knee surgeon with over 15 years of experience in advanced orthopedic care. She specializes in minimally invasive knee procedures, ligament repairs, and joint preservation. Known for her precision and compassionate care, Dr. Rushda is dedicated to restoring mobility and transforming lives.</p>
        </div>
+   
        `
       closeBtn.addEventListener("click", function(){
        document.querySelector(".detail").style.display="none"
