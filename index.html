@@ -11,6 +11,7 @@
 <body>
     <div class="container">
         <nav>
+            
             <div class="logo">
                 <h1>LifeCare</h1>
             </div>
@@ -40,25 +41,35 @@
                 <h1>Our Doctor's</h1>
             </div>
             <div class="teams">
-                <div class="card">
-                    <img src="images/dt1.jpg" alt="">
-                    <p>Alexa </p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis?</p>
-
+                <div class="card"
+                     data-name="Dr. Rushda"
+                     data-short="Expert in skincare and dermatology."
+                     data-full="Dr. Rushda is a renowned dermatologist with over 5 years of experience in treating complex skin conditions, cosmetic dermatology, and patient education.">
+                  <img src="images/dt1.jpg" alt="Dr. Rushda">
+                  <p>Dr. Rushda</p>
+                  <p>Expert in skincare and dermatology.</p>
                 </div>
-                <div class="card">
-                    <img src="images/dt2.jpg" alt="">
-                    <p>Alexa </p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis?</p>
-
+              
+                <div class="card"
+                     data-name="Dr. Zainab"
+                     data-short="Loves working with children and families."
+                     data-full="Dr. Zainab is a compassionate pediatrician who provides gentle care, vaccinations, and developmental checkups for infants and children.">
+                  <img src="images/dt2.jpg" alt="Dr. Zainab">
+                  <p>Dr. Zainab</p>
+                  <p>Loves working with children and families.</p>
                 </div>
-                <div class="card">
-                    <img src="images/dt3.jpg" alt="">
-                    <p>Alexa </p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis?</p>
-
+              
+                <div class="card"
+                     data-name="Dr. Shreya"
+                     data-short="Heart specialist with 10+ years of service."
+                     data-full="Dr. Shreya is a respected cardiologist, treating heart-related disorders with a strong focus on patient-centered care and preventive heart health.">
+                  <img src="images/dt3.jpg" alt="Dr. Shreya">
+                  <p>Dr. Shreya</p>
+                  <p>Heart specialist with 10+ years of service.</p>
                 </div>
-            </div>
+              </div>
+              
+              
         </div>
 
         <div id="speciality">
@@ -68,57 +79,53 @@
             <div class="speciality">
                 <div class="spCard">
                     <img src="images/s1.png" alt="">
-                    <p>Knee Surgery</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia.</p>
+                    <p>Brain Surgery</p>
+                    <p>Brain surgery is a precise procedure to treat neurological issues like tumors, bleeding, or trauma, restoring health and brain function.</p>
 
                 </div>
                 <div class="spCard">
                     <img src="images/s2.png" alt="">
-                    <p>Knee Surgery</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia.</p>
+                    <p>Heart Surgery</p>
+                    <p>Heart surgery treats conditions like blocked arteries or valve issues to improve blood flow, restore heart function, and save lives.</p>
 
                 </div>
                 <div class="spCard">
                     <img src="images/s3.png" alt="">
-                    <p>Knee Surgery</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia.</p>
+                    <p>Leg Surgery</p>
+                    <p>Leg surgery corrects fractures, joint issues, or vascular problems, helping restore mobility, reduce pain, and improve overall leg function."
+
+                    </p>
 
                 </div>
             </div>
         </div>
 
-        <div id="patient">
+        <div id="patient" class="review-section">
             <div class="head">
-                <h1>Patient Review's</h1>
+              <h1>Patient Review's</h1>
             </div>
-            <div class="reviews">
-                <div class="patientReview">
-                    <img src="images/p1.png" alt="">
-                    <img src="images/p2.png" alt="">
-
-                </div>
-                <div class="patientReview">
-                    <img src="images/p3.jpg" alt="">
-                    <img src="images/p4.jpg" alt="">
-
-                </div>
-                  <div class="patientReview">
-                    <img src="images/p5.jpg" alt="">
-                    <img src="images/p6.jpg" alt="">
-
-                </div>
+            <div class="review-carousel">
+              <img src="images/p1.png" alt="">
+              <img src="images/p2.png" alt="">
+              <img src="images/p3.jpg" alt="">
+              <img src="images/p4.jpg" alt="">
+              <img src="images/p5.jpg" alt="">
+              <img src="images/p6.jpg" alt="">
             </div>
-        </div>
+          </div>
 
         <div id="contact">
             <div class="head">
                 <h1>Contact Us</h1>
             </div>
             <div class="contact">
-                <h1>Connect With Us</h1>
-                <input type="text" placeholder="Enter Email" id="email">
-                <input type="password" placeholder="Enter password" id="pass"/>
-                <button id="connectBtn">Connect</button>
+                <h1>Contact Us</h1>
+                <input type="text" placeholder="Enter your name" id="name"/>
+                <input type="text" placeholder="Enter your email" id="email"/>
+                <input type="text" placeholder="Enter your phone number" id="phone"/>
+                
+
+                <button id="connectBtn">LOG IN</button>
 
             </div>
         </div>
@@ -135,8 +142,8 @@
             </div>
             <div class="text">
                 <h3>Speciality</h3>
-                <p>Knee surgery</p>
-                <p>Spin surgery</p>
+                <p>Brain surgery</p>
+                <p>Heart surgery</p>
                 <p>Leg surgery</p>
                 <p>Tendon surgery</p>
                 <p></p>
@@ -153,7 +160,7 @@
             </div>
             <div class="text">
                 <h3>Address</h3>
-                <p>Near MG Road</p>
+                <p>Banglore,karnataka</p>
                 <p>Galaxy Care</p>
                 <p>333-09093</p>
                 <p>09-883-090</p>
@@ -174,3 +181,5 @@
     <script src="hospital.js"></script>
 </body>
 </html>
+<script>
+    
