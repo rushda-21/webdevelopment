@@ -17,6 +17,7 @@ nav{
     position: fixed;
     top: 0%;
     width: 100%;
+    z-index:1000;
 }
 ul{
     display: flex;
@@ -307,9 +308,9 @@ ul li a:hover{
     white-space: nowrap;
     background-color: #d0f0f5;
     padding: 10px 0;
-    margin-top: 75px; /* because navbar is fixed */
+    margin-top: 80px; /* because navbar is fixed */
     position: relative;
-    z-index: 999;
+    z-index: 998;
 }
 
 .marquee-text {
